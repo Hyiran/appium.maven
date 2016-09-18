@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [contact (0)]" parallel="classes">
+  <parameter name="port" value="4725"/>
+  <parameter name="udid" value="e232d00a"/>
+  <parameter name="ver" value="4.4"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="function">
+    <groups>
+      <define name="call">
+        <include name="call"/>
+      </define> <!-- call -->
+      <define name="other">
+        <include name="other"/>
+      </define> <!-- other -->
+      <define name="test">
+        <include name="test"/>
+      </define> <!-- test -->
+      <define name="webview">
+        <include name="webview"/>
+      </define> <!-- webview -->
+      <define name="debug1">
+        <include name="debug1"/>
+      </define> <!-- debug1 -->
+      <define name="mms">
+        <include name="mms"/>
+      </define> <!-- mms -->
+      <define name="debug">
+        <include name="debug"/>
+      </define> <!-- debug -->
+      <define name="contact">
+        <include name="contact"/>
+      </define> <!-- contact -->
+      <define name="all">
+        <include name="call"/>
+        <include name="contact"/>
+        <include name="mms"/>
+        <include name="other"/>
+      </define> <!-- all -->
+      <run>
+        <include name="debug"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.study.code.ChinaMoblie_testNg"/>
+    </classes>
+  </test> <!-- function -->
+</suite> <!-- Failed suite [contact (0)] -->

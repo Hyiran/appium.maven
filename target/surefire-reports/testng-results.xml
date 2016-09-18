@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="和通讯录V3.9.9" duration-ms="20944" started-at="2016-04-17T00:57:11Z" finished-at="2016-04-17T00:57:32Z">
+    <groups>
+      <group name="more">
+        <method signature="ChinaMoblie_more.testCase_mms_049()[pri:0, instance:com.study.code.ChinaMoblie_more@f6b6cdf]" name="testCase_mms_049" class="com.study.code.ChinaMoblie_more"/>
+      </group> <!-- more -->
+    </groups>
+    <test name="基本功能" duration-ms="20944" started-at="2016-04-17T00:57:11Z" finished-at="2016-04-17T00:57:32Z">
+      <class name="com.study.code.ChinaMoblie_more">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.study.code.ChinaMoblie_more@f6b6cdf]" name="setUp" is-config="true" duration-ms="15356" started-at="2016-04-17T08:56:56Z" finished-at="2016-04-17T08:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0bd08bcc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase_mms_049()[pri:0, instance:com.study.code.ChinaMoblie_more@f6b6cdf]" name="testCase_mms_049" duration-ms="20917" started-at="2016-04-17T08:57:11Z" finished-at="2016-04-17T08:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_mms_049 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.study.code.ChinaMoblie_more@f6b6cdf]" name="tearDown" is-config="true" duration-ms="1977" started-at="2016-04-17T08:57:32Z" finished-at="2016-04-17T08:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.study.code.ChinaMoblie_more -->
+    </test> <!-- 基本功能 -->
+  </suite> <!-- 和通讯录V3.9.9 -->
+</testng-results>

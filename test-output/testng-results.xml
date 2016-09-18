@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[testCase_contact_001 测试通过；用例（功能点）描述: 创建联系人]]>
+    </line>
+    <line>
+      <![CDATA[testCase_contact_001 测试通过；用例（功能点）描述: 创建联系人]]>
+    </line>
+  </reporter-output>
+  <suite name="和通讯录(三星7100)" duration-ms="166153" started-at="2016-03-25T08:04:50Z" finished-at="2016-03-25T08:07:37Z">
+    <groups>
+      <group name="debug">
+        <method signature="ChinaMoblie_testNg.testCase_contact_001()[pri:0, instance:com.study.code.ChinaMoblie_testNg@444c05c1]" name="testCase_contact_001" class="com.study.code.ChinaMoblie_testNg"/>
+      </group> <!-- debug -->
+    </groups>
+    <test name="基本功能" duration-ms="166153" started-at="2016-03-25T08:04:50Z" finished-at="2016-03-25T08:07:37Z">
+      <class name="com.study.code.ChinaMoblie_testNg">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.study.code.ChinaMoblie_testNg@444c05c1]" name="setUp" is-config="true" duration-ms="10982" started-at="2016-03-25T16:04:39Z" finished-at="2016-03-25T16:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4df7290815f6bf27]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.study.code.ChinaMoblie_testNg@444c05c1]" name="BeforeMethod" is-config="true" duration-ms="25055" started-at="2016-03-25T16:04:50Z" finished-at="2016-03-25T16:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="testCase_contact_001()[pri:0, instance:com.study.code.ChinaMoblie_testNg@444c05c1]" name="testCase_contact_001" duration-ms="141096" started-at="2016-03-25T16:05:16Z" finished-at="2016-03-25T16:07:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testCase_contact_001 测试通过；用例（功能点）描述: 创建联系人]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase_contact_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.study.code.ChinaMoblie_testNg@444c05c1]" name="tearDown" is-config="true" duration-ms="2405" started-at="2016-03-25T16:07:37Z" finished-at="2016-03-25T16:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.study.code.ChinaMoblie_testNg -->
+    </test> <!-- 基本功能 -->
+  </suite> <!-- 和通讯录(三星7100) -->
+  <suite name="和通讯录(三星9150)" duration-ms="157528" started-at="2016-03-25T08:04:50Z" finished-at="2016-03-25T08:07:28Z">
+    <groups>
+      <group name="debug">
+        <method signature="ChinaMoblie_testNg.testCase_contact_001()[pri:0, instance:com.study.code.ChinaMoblie_testNg@6075f9d3]" name="testCase_contact_001" class="com.study.code.ChinaMoblie_testNg"/>
+      </group> <!-- debug -->
+    </groups>
+    <test name="基本功能" duration-ms="157528" started-at="2016-03-25T08:04:50Z" finished-at="2016-03-25T08:07:28Z">
+      <class name="com.study.code.ChinaMoblie_testNg">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.study.code.ChinaMoblie_testNg@6075f9d3]" name="setUp" is-config="true" duration-ms="10551" started-at="2016-03-25T16:04:39Z" finished-at="2016-03-25T16:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4725]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[e232d00a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.study.code.ChinaMoblie_testNg@6075f9d3]" name="BeforeMethod" is-config="true" duration-ms="14457" started-at="2016-03-25T16:04:50Z" finished-at="2016-03-25T16:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="testCase_contact_001()[pri:0, instance:com.study.code.ChinaMoblie_testNg@6075f9d3]" name="testCase_contact_001" duration-ms="143060" started-at="2016-03-25T16:05:04Z" finished-at="2016-03-25T16:07:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testCase_contact_001 测试通过；用例（功能点）描述: 创建联系人]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase_contact_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.study.code.ChinaMoblie_testNg@6075f9d3]" name="tearDown" is-config="true" duration-ms="1481" started-at="2016-03-25T16:07:28Z" finished-at="2016-03-25T16:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.study.code.ChinaMoblie_testNg -->
+    </test> <!-- 基本功能 -->
+  </suite> <!-- 和通讯录(三星9150) -->
+</testng-results>

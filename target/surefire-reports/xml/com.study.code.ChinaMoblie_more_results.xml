@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="基本功能"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.917">
+  <properties />
+  
+  
+            <testcase name="testCase_mms_049" time="20.917" classname="com.study.code.ChinaMoblie_more" />
+      
+</testsuite>

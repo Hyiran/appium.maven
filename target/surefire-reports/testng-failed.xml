@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [和通讯录V3.9.9]" parallel="classes">
+  <parameter name="port" value="4723"/>
+  <parameter name="udid" value="0bd08bcc"/>
+  <parameter name="ver" value="4.3"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="基本功能">
+    <groups>
+      <define name="call">
+        <include name="call"/>
+      </define> <!-- call -->
+      <define name="more">
+        <include name="more"/>
+      </define> <!-- more -->
+      <define name="other">
+        <include name="other"/>
+      </define> <!-- other -->
+      <define name="test">
+        <include name="test"/>
+      </define> <!-- test -->
+      <define name="onecall">
+        <include name="call"/>
+      </define> <!-- onecall -->
+      <define name="webview">
+        <include name="webview"/>
+      </define> <!-- webview -->
+      <define name="mms">
+        <include name="mms"/>
+      </define> <!-- mms -->
+      <define name="bug">
+        <include name="bug"/>
+      </define> <!-- bug -->
+      <define name="debug">
+        <include name="debug"/>
+      </define> <!-- debug -->
+      <define name="contact">
+        <include name="contact"/>
+      </define> <!-- contact -->
+      <define name="all">
+        <include name="onecall"/>
+        <include name="contact"/>
+        <include name="mms"/>
+        <include name="twocall"/>
+      </define> <!-- all -->
+      <define name="twocall">
+        <include name="fixed"/>
+      </define> <!-- twocall -->
+      <run>
+        <include name="more"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.study.code.ChinaMoblie_more"/>
+    </classes>
+  </test> <!-- 基本功能 -->
+</suite> <!-- Failed suite [和通讯录V3.9.9] -->
